@@ -8,6 +8,7 @@ const name = "David Boon";
 export const siteTitle = "Next.js Sample Website";
 
 export default function Layout({children, home}) {
+    console.log("gererds")
     return (
         <div className={`${home?'fx':''}`}>
             <Head>
