@@ -1,5 +1,5 @@
 import { getAllPostIds } from "../../lib/posts";
-import Layout from "../components/layout";
+// import Layout from "../../components/layout";
 
 export default function Post({data}) {
     return <div>
