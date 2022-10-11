@@ -10,7 +10,48 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
+/* h2 {
+  color: #0070f3;
+  text-decoration: none;
+}
+h2:hover {
+  text-decoration: underline;
+} */
+.twitter {
+  color: #0070f3;
+}
+.twitter:hover{
+  text-decoration: underline;
+}
+.fx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+header {
+  height: 300px;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: #0f0;
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+}
+.gonext {
+  text-align: center;
+}
+/* .main-text {
+  width: 70%;
+  display: flex;
+  justify-items: center;
+} */
 * {
   box-sizing: border-box;
 }

@@ -1,0 +1,15 @@
+.main {
+    background-color: rgb(238, 227, 68);
+    height: 300px;
+}
+.textunder {
+    color: #0070f3;
+    text-decoration: none;
+}
+.textunder:hover {
+    color: red;
+    text-decoration: underline;
+}
+.post {
+    color: green;
+}
